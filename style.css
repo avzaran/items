@@ -129,6 +129,11 @@ table {
     border-spacing: 0;
 }
 
+
+
+
+
+
 body{
     background-color: black;
     
@@ -144,13 +149,11 @@ body{
     gap: 30px;
 }
 
-*{
-    font-family: var(--font-family);
+* {
+    font-family: "Roboto",serif;
 }
 :root {
-    --font-family: "Roboto", serif;
     --item-card-width: 250px;
-    
     --border-radius-card: 5px;
     --background-color1: #FFFFFF;
     --background-color2: #FFD100;
