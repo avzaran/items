@@ -130,7 +130,7 @@ table {
 }
 
 
-
+/* reset CSS end */
 
 
 
@@ -188,7 +188,7 @@ body{
     flex-basis: auto;
     border: 1px solid #000;
     max-width: var(--item-card-width);
-   position: relative;
+    position: relative;
     border-radius: 5px 5px 5px 88px;
     background-color: var(--background-color2);
     background: linear-gradient(0deg, rgba(255, 209, 0, 1) 80%, rgba(255, 255, 255, 1) 100%);
@@ -254,8 +254,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: start;
-   
-
 }
 
 .primary-text{
@@ -288,7 +286,6 @@ body{
 .price{
 text-align: end;
 margin-top: 30px;
-   
 }
 
 .over-price{
@@ -296,7 +293,6 @@ margin-top: 30px;
     text-decoration: line-through;
 font-weight: 500;
 color: gray;
-
 }
 
 .sale-price{
