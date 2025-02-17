@@ -147,6 +147,7 @@ body{
 .layout{
     display: flex;
     gap: 30px;
+    margin-top: 15px;
 }
 
 * {
@@ -175,7 +176,7 @@ body{
     flex-basis: auto;
     border: 1px solid #000;
     max-width: var(--item-card-width);
-    border-radius: var(--border-radius-card);
+    border-radius: 5px 5px 5px 85px;
     background-color: var(--background-color1);
     padding: 20px;
     position: relative;
@@ -188,7 +189,7 @@ body{
     border: 1px solid #000;
     max-width: var(--item-card-width);
    position: relative;
-    border-radius: var(--border-radius-card);
+    border-radius: 5px 5px 5px 88px;
     background-color: var(--background-color2);
     background: linear-gradient(0deg, rgba(255, 209, 0, 1) 80%, rgba(255, 255, 255, 1) 100%);
     padding: 20px;
@@ -207,15 +208,38 @@ body{
     height: 4rem;
     display: flex;
     position: absolute;
-    bottom: 0;
-    left: 0;
-border-top-right-radius: 10px;
+    bottom: 1px;
+    left: 2px;
+    border-top-right-radius: 10px;
     background-color: #000;
     
 }
 
 
+.basket:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -12px;
+    bottom: 100%;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: black;
+}
 
+.basket:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 55px;
+    bottom: 0%;
+    width: 0;
+    height: 0;
+    border: 9px solid transparent;
+    border-bottom-color: black ;
+    border-top-right-radius: 100px;
+}
 
 .shop-img{
     margin: auto;
